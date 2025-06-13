@@ -8,4 +8,4 @@ Python and R are two most popular language in case of Machine learning , math si
 ```
 life Restart --force
 ```
-Here we are going to spend ample amount of hours to cover this simpliest shit I hate being regular and I believe we all. But its going to pay us a lot and that matters. 
+Here we are going to spend ample amount of hours to cover this simpliest shit. I hate being regular and I believe we all. But its going to pay us a lot and that matters. 
