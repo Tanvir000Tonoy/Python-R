@@ -24,3 +24,24 @@ if 'laow' in mylist1:
     print ("yes,'laow' is in the mylist1 list")
 else:
     print ("no,'laow'is not int the mylist1 list")
+
+#Change list item
+mylist1[0]='apuuu'
+print(mylist1)
+
+#Change a range of item values
+mylist1[0:2]=['apuuu','anuu']
+print(mylist1)
+
+#Insert items into the list by using insert() method
+mylist1.insert(2,'boishakhi')
+print(mylist1)
+
+#Add list item by using append() method
+mylist1.append('anoy')
+print(mylist1)
+
+#Append items from another list to the current list by using the extend() method
+mylist4 =['habul','dabul','kabul']
+mylist1.extend(mylist4)
+print (mylist1)
