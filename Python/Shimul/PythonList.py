@@ -49,4 +49,8 @@ print (mylist1)
 #Remove specific item from the list,by using remove method 
 mylist4.remove('dabul')
 print(mylist4)
-
+#Remove specific index item by using pop() method and del keyword
+mylist1.pop(1)
+print(mylist1)
+del mylist1[0]
+print(mylist1)
