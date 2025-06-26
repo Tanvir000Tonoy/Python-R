@@ -45,3 +45,8 @@ print(mylist1)
 mylist4 =['habul','dabul','kabul']
 mylist1.extend(mylist4)
 print (mylist1)
+
+#Remove specific item from the list,by using remove method 
+mylist4.remove('dabul')
+print(mylist4)
+
