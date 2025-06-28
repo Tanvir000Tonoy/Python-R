@@ -30,14 +30,14 @@ def main():
         numGuesses = 1
         while numGuesses <= MAX_GUESSES:
             guess = ''
-            while len(guess) != MAX_GUESSES or not guess.isdecimal():
+            while len(guess) != NUM_OF_DIGITS or not guess.isdecimal():
                 print(f"Guess {numGuesses}")
                 guess = input("> ")
-                clues = getClues( guess, secretNum)
-                print(clues)
-                numGuesses +=1
-                if guess == secretNum:
-                 break
+            clues = getClues( guess, secretNum)
+            print(clues)
+            numGuesses +=1
+            if guess == secretNum:
+             break
             if numGuesses > MAX_GUESSES:
                 print("You ran out of guesses.")
                 print("The Answer was {}.".format(secretNum))
