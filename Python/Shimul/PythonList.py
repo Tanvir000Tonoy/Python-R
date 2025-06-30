@@ -64,3 +64,19 @@ i=0
 while i<len(mylist1):
     print(mylist1[i])
     i=i+1
+
+#List comprehension
+mylist5=['python','java','php','javascript','c++']
+newlist=[]
+for x in mylist5:
+    if 'p' in x:
+        newlist.append(x)
+print(newlist)
+
+#Sort a list using sort() method
+mylist5.sort()
+print(mylist5)
+
+apuurlist = [248, 578,165, 87, 53]
+apuurlist.sort()
+print(apuurlist)
