@@ -54,3 +54,13 @@ mylist1.pop(1)
 print(mylist1)
 del mylist1[0]
 print(mylist1)
+
+#Print all item using a for loop
+for i in mylist1:
+    print(i)
+
+#Print all item using a while loop
+i=0
+while i<len(mylist1):
+    print(mylist1[i])
+    i=i+1
