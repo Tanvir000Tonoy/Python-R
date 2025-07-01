@@ -80,3 +80,16 @@ print(mylist5)
 apuurlist = [248, 578,165, 87, 53]
 apuurlist.sort()
 print(apuurlist)
+
+#A case-insensitive sort function, use str.lower as a key function
+thislist=['iphone','Samsung','oneplus','Xiaomi','nokia']
+thislist.sort(key=str.lower)
+print(thislist)
+
+#Sort descending a list by using keyword argument reverse=True
+apuurlist.sort(reverse=True)
+print(apuurlist)
+
+#Reverse the order of a list by using reverse() method
+thislist.reverse()
+print(thislist)
