@@ -106,3 +106,12 @@ print(mylist2) #copy a list by using list() method
 mylist1 = ['shimul','tanvir','bandhan','saikat','alock']
 mylist2 = mylist1[:] #Copy a list by using :(slice) operator
 print(mylist2)
+
+#Join two list
+mylist1 = ['shimul','tanvir','bandhan','saikat','alock']
+mylist2 =['habul', 'dabul', 'kabul']
+mylist3 = mylist1 + mylist2 #Just using + operator
+print(mylist3)
+
+mylist1.extend(mylist2) #use the extend() method 
+print(mylist1)
