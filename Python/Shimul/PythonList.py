@@ -93,3 +93,8 @@ print(apuurlist)
 #Reverse the order of a list by using reverse() method
 thislist.reverse()
 print(thislist)
+
+#Copy a list by using copy() method
+mylist1 = ['shimul','tanvir','bandhan','saikat','alock']
+mylist2 = mylist1.copy()
+print (mylist2)
