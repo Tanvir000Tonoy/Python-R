@@ -98,3 +98,11 @@ print(thislist)
 mylist1 = ['shimul','tanvir','bandhan','saikat','alock']
 mylist2 = mylist1.copy()
 print (mylist2)
+
+mylist1 = ['shimul','tanvir','bandhan','saikat','alock']
+mylist2 =list(mylist1)
+print(mylist2) #copy a list by using list() method
+
+mylist1 = ['shimul','tanvir','bandhan','saikat','alock']
+mylist2 = mylist1[:] #Copy a list by using :(slice) operator
+print(mylist2)
