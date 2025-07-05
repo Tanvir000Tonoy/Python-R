@@ -115,3 +115,4 @@ print(mylist3)
 
 mylist1.extend(mylist2) #use the extend() method 
 print(mylist1)
+
